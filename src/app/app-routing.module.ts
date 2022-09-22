@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'noticias',
     loadChildren: () => import('./pages/noticias/noticias.module').then( m => m.NoticiasPageModule)
   },
+  {
+    path: 'posteos',
+    loadChildren: () => import('./pages/posteos/posteos.module').then( m => m.PosteosPageModule)
+  },
 ];
 
 @NgModule({

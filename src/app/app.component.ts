@@ -46,6 +46,11 @@ export class AppComponent {
       name: 'Noticias',
       redirecTo:'/noticias',
     },
+    {
+      icon: 'diamond-outline',
+      name: 'Posteos',
+      redirecTo:'/posteos',
+    },
   ];
 
 

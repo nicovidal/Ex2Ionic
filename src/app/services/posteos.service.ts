@@ -10,7 +10,7 @@ export class PosteosService {
   constructor(private httpClient:HttpClient) { }
 
   getTopPost(){
-    return this.httpClient.get('https://jsonplaceholder.typicode.com/posts')
+    return this.httpClient.get('https://jsonplaceholder.typicode.com/posts');
 
   }
 
